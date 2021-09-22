@@ -15,8 +15,8 @@ function CarouselComponent(props) {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Basketball Floater.</p>
+          <h3 className={classes.carouselTitle}>First slide label</h3>
+          <p> Basketball Floater.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -27,7 +27,7 @@ function CarouselComponent(props) {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h3 className={classes.carouselTitle}>Second slide label</h3>
           <p>Basktball freethrow.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -39,7 +39,7 @@ function CarouselComponent(props) {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3  className={classes.carouselTitle}>Third slide label</h3>
           <p> Football run. </p>
         </Carousel.Caption>
       </Carousel.Item>

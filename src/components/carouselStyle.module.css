@@ -1,4 +1,7 @@
 .carouselImg {
-    width: auto;
-    height: 600px;
+    max-height: 35rem;
+    width: 100%;
 }
+
+.carouselTitle {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFB500, 0 0 30px #FFB500, 0 0 40px #FFB500, 0 0 55px #FFB500, 0 0 75px #FFB500, 6px 6px 20px rgba(255,163,0,0);}
